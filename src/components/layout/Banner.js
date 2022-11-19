@@ -9,10 +9,10 @@ const Banner = () => {
         backgroundImage: `url(${bannerImage})`
       }}
     >
-      <div className='w-full absolute h-[900px] bg-cover' style={{ background: `linear-gradient(rgba(90,71,204,.75),#5a47cc)` }} />
+      <div className='w-full absolute h-[950px] lg:h-[900px] bg-cover' style={{ background: `linear-gradient(rgba(90,71,204,.75),#5a47cc)` }} />
       <div className='myContainer !my-auto h-[900px] flex items-center overflow-hidden'>
-        <div className='absolute grid grid-cols-2 w-full items-center'>
-          <div className='col-span-1'>
+        <div className='absolute grid grid-cols-2 w-full items-center gap-10'>
+          <div className=' col-span-2 lg:col-span-1 p-6'>
             <div className='mx-auto w-fit'>
               <div className='flex gap-6 items-center'>
                 <div>
@@ -22,14 +22,14 @@ const Banner = () => {
                   speedyloans-usa
                 </div>
               </div>
-              <div className='text-[48px] text-white font-bold max-w-[500px]'>
+              <div className=' text-2xl text-center lg:text-left lg:leading-10 mt-3 lg:text-[48px] text-white font-bold max-w-[500px]'>
                 Get Your Personal Loan Up To $5000
               </div>
             </div>
           </div>
 
-          <div className='col-span-1'>
-            <div className='mx-auto'>
+          <div className=' col-span-2 lg:col-span-1  lg:block'>
+            <div className='w-full justify-center lg:justify-start flex mx-auto'>
               <div id="_lg_form_" />
             </div>
           </div>
