@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoIcon from './icons/logo'
+import LogoIcon from '../icons/logo'
 
 const Banner = () => {
   const bannerImage = '/image/bg_banner.jpeg'
@@ -13,12 +13,12 @@ const Banner = () => {
       <div className='myContainer !my-auto h-[900px] flex items-center overflow-hidden'>
         <div className='absolute grid grid-cols-2 w-full items-center'>
           <div className='col-span-1'>
-            <div className='mx-auto'>
+            <div className='mx-auto w-fit'>
               <div className='flex gap-6 items-center'>
                 <div>
                   <LogoIcon color="#ffff" w={70} />
                 </div>
-                <div className='text-3xl text-white'>
+                <div className='text-3xl text-white opacity-70'>
                   speedyloans-usa
                 </div>
               </div>
