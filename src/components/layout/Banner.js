@@ -29,7 +29,7 @@ const Banner = () => {
           </div>
 
           <div className=' col-span-2 lg:col-span-1  lg:block'>
-            <div className='w-full justify-center lg:justify-start flex mx-auto'>
+            <div className='w-full justify-center lg:justify-start flex mx-auto px-3'>
               <div id="_lg_form_" />
             </div>
           </div>

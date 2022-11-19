@@ -3,6 +3,9 @@ import React from 'react'
 const HowItWorksSection = () => {
   return (
     <div className='myContainer !my-10 grid grid-cols-2 items-center'>
+      <div className='col-span-2 lg:col-span-1 lg:order-last'>
+        <img src="/image/section2.png" alt="" />
+      </div>
       <div className='p-3 col-span-2 lg:col-span-1'>
         <div className='flex flex-col gap-6'>
           <div className='text-3xl font-semibold text-black'>How It Works</div>
@@ -27,9 +30,7 @@ const HowItWorksSection = () => {
           </div>
         </div>
       </div>
-      <div className='col-span-2 lg:col-span-1'>
-        <img src="/image/section2.png" alt="" />
-      </div>
+
     </div>
   )
 }
