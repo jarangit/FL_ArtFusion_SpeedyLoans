@@ -6,7 +6,7 @@ const HowItWorksSection = () => {
       <div className='col-span-2 lg:col-span-1 lg:order-last'>
         <img src="/image/section2.png" alt="" />
       </div>
-      <div className='p-3 col-span-2 lg:col-span-1'>
+      <div className='p-3 px-6 col-span-2 lg:col-span-1'>
         <div className='flex flex-col gap-6'>
           <div className='text-3xl font-semibold text-black'>How It Works</div>
           <div className='text-black font-light leading-7'>The process is super fast and simple. It takes minutes to see results and enjoy your extra cash</div>

@@ -22,7 +22,7 @@ const Banner = () => {
                   speedyloans-usa
                 </div>
               </div>
-              <div className=' text-2xl text-center lg:text-left lg:leading-10 mt-3 lg:text-[48px] text-white font-bold max-w-[500px]'>
+              <div className=' text-2xl text-center lg:text-left mt-3 lg:text-5xl font-extrabold text-white max-w-[500px]'>
                 Get Your Personal Loan Up To $5000
               </div>
             </div>

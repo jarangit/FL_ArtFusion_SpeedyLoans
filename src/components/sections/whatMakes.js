@@ -1,7 +1,7 @@
 import React from 'react'
 import { ArrowRightIcon, ClockIcon, LikeIcon, PlusIcon, UserIcon } from '../icons'
 
-const WhatMakesSection = () => {
+const WhatMakesSection = ({ onClickToTop }) => {
   return (
     <div className='flex flex-col gap-6 text-black justify-center items-center py-16 px-3'>
       <div className='flex items-center gap-3'>
@@ -44,6 +44,7 @@ const WhatMakesSection = () => {
       <div>
         <button
           className='w-[200px] h-[60px] bg-purple rounded-md text-white font-bold drop-shadow-lg transition-all hover:bg-[linear-gradient(#7760d5,#5242c2)]'
+          onClick={() => onClickToTop()}
         >
           <div className='flex gap-3 justify-center items-center opacity-70'>
             <div className=''>

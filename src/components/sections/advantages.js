@@ -6,7 +6,7 @@ const AdvantagesSection = () => {
       <div className='col-span-2 lg:col-span-1'>
         <img src="/image/section1.png" alt="" />
       </div>
-      <div className='col-span-2 lg:col-span-1 p-3'>
+      <div className='col-span-2 lg:col-span-1 p-3 px-6'>
         <div className='flex flex-col gap-6'>
           <div className='text-3xl font-semibold text-black'>Advantages</div>
           <div className='text-black font-light leading-7'>Just fill out our smart request form, get connected with a lender and enjoy your extra cash!</div>

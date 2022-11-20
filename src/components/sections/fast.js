@@ -7,7 +7,7 @@ const FastSection = () => {
       <div className='col-span-2 lg:col-span-1'>
         <img src="/image/section3.png" alt="" />
       </div>
-      <div className='p-3 col-span-2 lg:col-span-1'>
+      <div className='p-3 px-6 col-span-2 lg:col-span-1'>
         <div className='flex flex-col gap-6'>
           <div className='text-3xl font-semibold text-black'>Fast. Reliable. Transparent.</div>
           <div className='text-black font-light leading-7'>We offer free and straightforward services without any hidden fees or charges on our part. And as we care about your comfort and safety, we enable you to submit a request without having to worry about any obligations or threats to your data security.</div>
