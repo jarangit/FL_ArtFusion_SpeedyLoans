@@ -64,7 +64,7 @@ const LoanForm = ({ onChangeDataForm, goToPosts, dataForm }) => {
             </select>
           </div>
           <div className="relative h-[50px]">
-            <input type="password" id="ssn" name="ssn" value={dataForm.ssn} className={`${styled.input}`} placeholder="***" />
+            <input type="password" id="ssn" name="ssn" maxLength={4} value={dataForm.ssn} className={`${styled.input}`} placeholder="***" />
             <label for="ssn" name="ssn" value={dataForm.ssn} className={styled.label}>Last 4 digits of SSN</label>
           </div>
           <button onClick={goToPosts} className="w-full h-[60px] bg-[linear-gradient(#f2d670,#ffee89)] rounded-md text-black font-bold drop-shadow-md transition-all hover:bg-[#ffee89]" >
