@@ -6,11 +6,13 @@ const According = () => {
   return (
     <div className='bg-gray'>
       <div className='py-16 myContainer px-6'>
-        {accordionData.map((item) => (
-          <AccordionItem
-            title={item.title}
-            content={item.content}
-          />
+        {accordionData.map((item, key) => (
+          <div key = {key}>
+            <AccordionItem
+              title={item.title}
+              content={item.content}
+            />
+          </div>
         ))}
       </div>
     </div>

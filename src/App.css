@@ -3,9 +3,15 @@
   margin: 0 auto;
 }
 /* Form */
-#_lg_form_ {
+/* #_lg_form_ {
   width: 350px;
   border-radius: 20px;
   overflow: hidden;
   margin: 0 !important;
+} */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
 }
