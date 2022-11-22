@@ -1,9 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { MinusIcon } from '../icons'
 
-const AccordionItem = ({ title, content }) => {
+const AccordionItem = ({ title, content, id }) => {
   const [show, setShow] = useState(false)
 
+  useEffect(() => {
+    if(id === 1 || id === 2 || id === 3){
+      setShow(true)
+    }
+  }, [id])
+  
   return (
     <div className='border-b border-border'>
       <div className='flex justify-between  py-2 cursor-pointer'
