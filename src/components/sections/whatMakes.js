@@ -42,22 +42,25 @@ const WhatMakesSection = ({ onClickToTop }) => {
       </div>
 
       <div>
-        <button
-          className='w-[200px] h-[60px] bg-purple rounded-md text-white font-bold drop-shadow-lg transition-all hover:bg-[linear-gradient(#7760d5,#5242c2)]'
-          onClick={() => onClickToTop()}
-        >
-          <div className='flex gap-3 justify-center items-center opacity-70'>
-            <div className=''>
-              Get Started
-            </div>
-            <div>
-              <ArrowRightIcon
-                color={"#fff"}
-                w={20}
-              />
+        <a href='/form-loan'>
+
+          <div
+            className='w-[200px] h-[60px] bg-purple rounded-md text-white font-bold drop-shadow-lg transition-all hover:bg-[linear-gradient(#7760d5,#5242c2)] flex justify-center justify-center'
+
+          >
+            <div className='flex gap-3 justify-center items-center opacity-70'>
+              <div className=''>
+                Get Started
+              </div>
+              <div>
+                <ArrowRightIcon
+                  color={"#fff"}
+                  w={20}
+                />
+              </div>
             </div>
           </div>
-        </button>
+        </a>
       </div>
     </div>
   )
